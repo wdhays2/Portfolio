@@ -1,0 +1,24 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.jumbotron {
+  background-image: url('http://wallgans.com/wp-content/uploads/2015/04/city-cool-wallpapers-hd-wallpaper-abstract-picture-cool-wallpaper.jpg');
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+	}
+
+body {
+	margin: 0px;
+  font-family: 'Roboto', sans-serif;
+	}
+
+#footer {
+	clear: both;
+	background-color: lightblue;
+	text-align: center;
+	color: #929d9d;
+	margin-bottom: 30px;
+  text-align: center;
+	}
