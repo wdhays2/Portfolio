@@ -4,9 +4,16 @@
 
 .jumbotron {
   background-image: url('http://wallgans.com/wp-content/uploads/2015/04/city-cool-wallpapers-hd-wallpaper-abstract-picture-cool-wallpaper.jpg');
-  height: 1000px;
   background-repeat: no-repeat;
   background-size: cover;
+	}
+
+h1 {
+	color: #ffffff !important;
+	}
+  
+h4 {
+	text-align: center;
 	}
 
 body {
@@ -19,4 +26,27 @@ body {
 	text-align: center;
 	color: #929d9d;
 	margin-bottom: 30px;
+  display: inline;
 	}
+  
+  a:link.white-text, a:visited.white-text, a:hover.white-text, a:active.white-text {
+  	color: #ffffff;
+  	}
+    
+.links {
+	text-align: center;
+  }
+  
+.banner { 
+	position: relative; 
+  overflow: auto; 
+  }
+   
+    
+.banner li { 
+ 	list-style: none; 
+  }
+        
+.banner ul li { 
+ 	float: right; 
+  }

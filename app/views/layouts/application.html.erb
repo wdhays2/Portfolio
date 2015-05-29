@@ -9,8 +9,32 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div class="header">
+    <div class='navbar navbar-default navbar-static-top'>
+      <div class="container">
+        <a href='/welcome' class='navbar-brand'>Wiley Hays</a>
+        	<ul class='nav navbar-nav navbar-right'>
+          <ul class="nav nav-pills">
+            <li class="active"><%= link_to('Projects', portfolio_path) %></li>
+            <li><%= link_to('Welcome', root_path) %></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
 <%= yield %>
+    
+  <footer>
+    <ul>
+      <li><a href="https://www.linkedin.com/pub/wiley-hays/6b/807/54a">Linked In</a></li>
+      <li><a href="https://www.heroku.com">Heroku</a></li>
+      <li><a href="https://github.com/wdhays2">Github</a></li>
+    </ul>
+  <br>
+  <br>
+</footer>
+  
   
 </body>
 </html>
